@@ -24,7 +24,7 @@ Check the inet addr of your network adapter `balena0` using the command `ip addr
 
 The rules are loaded automatically by Balena during boot and start. Alternatively, the rules can be controlled via `/etc/init.d/balenafw`.
 
-For the automatically loaded ruleset see [archive/nftables/balena.nft](../../archive/etc/nftables/balena.nft)
+The automatically loaded ruleset can be found on your PLC included in firmware 2020.3.
 
 If more ports are needed for applications or containers, they can be added to the basic rules in `plcnext-filter`. It is also possible to set the port access via Web based management.
 
